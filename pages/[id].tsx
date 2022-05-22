@@ -7,7 +7,7 @@ import { Button, Card, Input, Modal, Radio, Rate, Select } from "antd";
 import Avatar from "antd/lib/avatar/avatar";
 import { saveAs } from "file-saver";
 import Link from "next/link";
-
+/* eslint-disable */
 function SingleCourse() {
   const router = useRouter().query;
   const data = myCourses[Number(router.id) - 1];
@@ -86,6 +86,7 @@ function SingleCourse() {
             <h1>Reviews</h1>
             {comments?.map((item) => (
               <Card
+                key={item.email}
                 title={
                   <div
                     style={{
@@ -93,7 +94,6 @@ function SingleCourse() {
                       flexDirection: "row",
                       columnGap: "20px",
                     }}
-                    key={item.email}
                   >
                     <Avatar
                       src={
