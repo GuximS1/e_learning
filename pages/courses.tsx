@@ -13,6 +13,7 @@ function Courses() {
         {myCourses.map((item) => (
           <Card
             hoverable
+            key={item.id}
             style={{ width: 300 }}
             cover={<img alt="example" src={item.img} height={250} />}
             onClick={() =>

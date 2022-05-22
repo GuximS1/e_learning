@@ -93,6 +93,7 @@ function SingleCourse() {
                       flexDirection: "row",
                       columnGap: "20px",
                     }}
+                    key={item.email}
                   >
                     <Avatar
                       src={

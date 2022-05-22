@@ -14,7 +14,7 @@ function About() {
         the instructor. Courses are mainly focused on improving the knowledge of
         the students on topcis like technology, especially Ethical Hacking.
         SpudAcademy was founded in 2022 by a student who wanted to learn Ethical
-        Hacking but wasn't recourses enough. Today SpudAcademy has reached more
+        Hacking but wasnt recourses enough. Today SpudAcademy has reached more
         than 10m users and it is growing every day.
       </h1>
     </div>
